@@ -91,7 +91,5 @@ rm argocd-linux-amd64
 https://github.com/argoproj/argo-cd/releases/download/v2.11.0/argocd-windows-amd64.exe
 
 ```
-> Health status for DevAppOne
 
-[![App Status](https://10.154.1.101:32399/api/badge?name=devapp1&revision=true&showAppName=true)](https://10.154.1.101:32399/applications/devapp1)
 
