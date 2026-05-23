@@ -16,7 +16,7 @@ spec:
         app: devapp2
     spec:
       containers:
-      - image: nginx:1.25.1
+      - image: nginx:stable
         name: devapp2
         ports:
         - containerPort: 80
