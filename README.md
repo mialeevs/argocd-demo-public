@@ -7,11 +7,11 @@
 ```bash
 # Non HA installation
 kubectl create namespace argocd
-kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.13.2/manifests/install.yaml
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v3.4.2/manifests/install.yaml
 
 # HA installation
 kubectl create namespace argocd
-kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.13.2/manifests/ha/install.yaml
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v3.4.2/manifests/ha/install.yaml
 ```
 
 > Get the password - Method-1
@@ -96,7 +96,7 @@ http://<workernode_ip>:32400
 https://github.com/argoproj/argo-cd/releases/latest
 
 # For linux based OS I use below link to download
-wget https://github.com/argoproj/argo-cd/releases/download/v2.13.2/argocd-linux-amd64
+wget https://github.com/argoproj/argo-cd/releases/download/v3.4.2/argocd-linux-amd64
 sudo install -m 555 argocd-linux-amd64 /usr/local/bin/argocd
 rm argocd-linux-amd64
 
