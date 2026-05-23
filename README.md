@@ -101,7 +101,7 @@ sudo install -m 555 argocd-linux-amd64 /usr/local/bin/argocd
 rm argocd-linux-amd64
 
 # Ue below link to download onto Win 11
-https://github.com/argoproj/argo-cd/releases/download/v2.13.2/argocd-windows-amd64.exe
+https://github.com/argoproj/argo-cd/releases/download/v3.4.2/argocd-windows-amd64.exe
 
 ```
 
